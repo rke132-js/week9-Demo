@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 20px auto;
+}
+
+.printOnce {
+    flex: 33%;
+}
+
+.printTwice {
+    flex: 33%;
+}
+
+.printTen {
+    flex: 33%;
+}
