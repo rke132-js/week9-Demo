@@ -3,10 +3,21 @@
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.result {
+    display: flex;
+}
+
+.input {
+    flex-wrap: wrap;
 }
 
 input[type="text"] {
-    display: block;
+    display: inline-block;
     margin: 20px auto;
 }
 
